@@ -74,6 +74,75 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-section {
+  margin-top: 10px;
+  background: #e3eafc;
+  border-radius: 4px;
+  padding: 10px 12px;
+}
+.participants-title {
+  color: #1a237e;
+  font-size: 1.05em;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.participants-list {
+.participants-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.lion-bullets .participant-item {
+  position: relative;
+  padding-left: 0;
+}
+.participant-item {
+.participant-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  font-size: 1em;
+  color: #1a237e;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.lion-emoji {
+.lion-emoji {
+  margin-right: 8px;
+  font-size: 1.1em;
+  vertical-align: middle;
+}
+.delete-participant-btn {
+  background: #ffebee;
+  border: 1px solid #ef9a9a;
+  color: #c62828;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: background 0.2s, border 0.2s;
+}
+.delete-participant-btn:hover, .delete-participant-btn:focus {
+  background: #ffcdd2;
+  border: 1.5px solid #c62828;
+  outline: none;
+}
+.participant-email {
+  word-break: break-all;
+  font-family: Arial, sans-serif;
+}
+.no-participants {
+  color: #3949ab;
+  font-style: italic;
+  font-size: 0.98em;
+  margin: 0;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
